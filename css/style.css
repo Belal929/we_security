@@ -1,0 +1,40 @@
+* {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+}
+
+.logo {
+    width: 45px;
+    height: 37.5px;
+    border-radius: 50%;
+}
+.btn-nav:hover {
+    border-color: black;
+
+}
+header{
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+    background: url(../images/back\ ground.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* class of header text */
+.hedd{
+    text-align: center;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+#about img{
+    min-height: 85%;
+}
